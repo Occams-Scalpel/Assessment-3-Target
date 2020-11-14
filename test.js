@@ -31,6 +31,7 @@ class Cat {
     constructor (dogName, dogAge) {
       this.dogName = 'test-string'
       this.dogAge = 0
+      this.catFriend = new Cat("Patchy", 29)
     }
   
     speak () {
