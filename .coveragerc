@@ -1,0 +1,6 @@
+[run]
+
+omit =
+    */venv/*
+    test_*.py
+    serializer.py
